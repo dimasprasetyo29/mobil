@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="mt-14 bg-secondary text-white">
+    <footer className="mt-14 bg-gradient-to-b from-black via-purple-900 to-black text-white">
       <div className="flex flex-col md:flex-row justify-between p-8 lg:px-28 md:px-16 px-5">
         <div className="w-full md:w-1/4 mb-6 md:mb-0">
           <h1 className="font-semibold text-2xl pb-4">WheelsDeal</h1>

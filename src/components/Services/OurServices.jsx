@@ -20,11 +20,11 @@ const OurServices = () => {
       title: "Desain elegan",
       icon: <MdDesignServices />,
       description:
-        "desain khusus untuk memberikan sentuhan elegan dan personal pada kendaraan Anda.",
+        "Desain khusus untuk memberikan sentuhan elegan dan personal pada kendaraan Anda.",
     },
     {
       id: 3,
-      title: "setting cars",
+      title: "Setting cars",
       icon: <IoSettings />,
       description:
         "Penyesuaian profesional pengaturan kendaraan untuk kinerja optimal.",
@@ -77,7 +77,7 @@ const styles = {
   container: {
     padding: "30px",
     fontFamily: "'Roboto', sans-serif",
-    backgroundColor: "#f4f4f4",
+    background: "linear-gradient(to bottom, black, #6a1b9a)", // Black to Purple gradient
     maxWidth: "1200px",
     margin: "0 auto",
     minHeight: "100vh", // Ensures the container takes up full height
@@ -90,10 +90,10 @@ const styles = {
   title: {
     fontSize: "3rem",
     fontWeight: "bold",
-    color: "#333",
+    color: "#fff", // White color for the title text
   },
   highlight: {
-    color: "#00796b", // Teal color for highlight
+    color: "#ffeb3b", // Yellow color for highlight to stand out against dark background
   },
   servicesContainer: {
     display: "grid",
@@ -114,7 +114,7 @@ const styles = {
   },
   icon: {
     fontSize: "50px",
-    color: "#00796b", // Teal color for icons
+    color: "#6a1b9a", // Purple color for icons to match the background gradient
     marginBottom: "20px",
   },
   serviceTitle: {
